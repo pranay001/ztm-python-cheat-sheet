@@ -561,6 +561,9 @@ Functions
 say_hello('pranay') # throws error as this fuction is called before its defined in the code.
 
 def say_hello(name)
+    '''
+    This function prints hello with your name
+    '''
     print(f'hello {name}')
 
 say_hello('pranay') # prints - hello pranay
