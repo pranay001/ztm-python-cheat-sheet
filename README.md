@@ -567,6 +567,7 @@ def say_hello(name)
     print(f'hello {name}')
 
 say_hello('pranay') # prints - hello pranay
+print(say_hello.__doc__) # prints the doc string of the function
 ```
 
 
