@@ -13,7 +13,6 @@ Contents
 
 **Advanced Python:** **[`Modules`](#modules)__,__[`Iterators`](#iterators)__,__[`Generators`](#generators)__,__[`Decorators`](#decorators)__,__[`Class`](#class)__,__[`Exceptions`](#exceptions)__,__[`Command Line Arguments`](#command-line-arguments)__,__[`File IO`](#file-io)__,__[`Useful Libraries`](#useful-libraries)**  
 
-
 Numbers
 ----
 **python's 2 main types for Numbers is int and float (or integers and floating point numbers)**
@@ -402,6 +401,13 @@ elif <condition that evaluates to boolean>:
 else:
   # perform action3
 ```
+
+Ternary Operator
+----
+```python
+# condition_if_true if condition else condition_if_false
+is_friend = True
+can_message = "message allowed" if is_friend else "message not allowed"
 
 Loops
 --------
