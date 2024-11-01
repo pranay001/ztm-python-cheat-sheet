@@ -13,6 +13,13 @@ Contents
 
 **Advanced Python:** **[`Modules`](#modules)__,__[`Iterators`](#iterators)__,__[`Generators`](#generators)__,__[`Decorators`](#decorators)__,__[`Class`](#class)__,__[`Exceptions`](#exceptions)__,__[`Command Line Arguments`](#command-line-arguments)__,__[`File IO`](#file-io)__,__[`Useful Libraries`](#useful-libraries)**  
 
+Print
+---
+```python
+print('hello') # prints hello and moves to the next line
+print('hello', end='') # prints hello and does not move to next line. if the code has one more print, then it will print in the same line after hello.
+```
+
 Numbers
 ----
 **python's 2 main types for Numbers is int and float (or integers and floating point numbers)**
@@ -459,6 +466,24 @@ while msg != 'quit':
     print(msg)
 ```
 
+Break, Continue and Pass
+---
+**Break** - breaks the execution of the current enclosing loop
+**Continue** - continues the execution to the current enclosing loop by skipping rest of the lines in the current code
+```python
+my_list = [1,2,3]
+for item in my_list:
+    print(item) # 1 2 3 4
+    continue
+    print(item) # this line will not execute as continue will move the execution to the for loop
+```
+
+**Pass** - moves the execution to next line. can be used as placeholder for code that we might add in futur
+```python
+for item in my_list:
+    pass # developers can fill in the code in this loop in future.
+```
+
 Range
 -----
 ```python
@@ -532,6 +557,13 @@ for name, langs in programmers.items():
 
 Functions
 -------
+```python
+def say_hello(name)
+    print(f'hello {name}')
+
+say_hello('pranay')
+```
+
 
 #### \*args and \*\*kwargs
 **Splat (\*) expands a collection into positional arguments, while splatty-splat (\*\*) expands a dictionary into keyword arguments.**
