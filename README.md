@@ -558,10 +558,12 @@ for name, langs in programmers.items():
 Functions
 -------
 ```python
+say_hello('pranay') # throws error as this fuction is called before its defined in the code.
+
 def say_hello(name)
     print(f'hello {name}')
 
-say_hello('pranay')
+say_hello('pranay') # prints - hello pranay
 ```
 
 
