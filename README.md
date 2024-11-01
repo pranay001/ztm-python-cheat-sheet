@@ -416,6 +416,14 @@ Ternary Operator
 is_friend = True
 can_message = 'message allowed' if is_friend else 'message not allowed'
 ```
+Walrus Operator
+---
+```python
+a = 'hello'
+while((n := len(a)) > 1):
+    print(n) # n will hold the value from the previous assignment done by walrus operator **:=**
+    a = a[:-1]
+```
 
 Loops
 --------
