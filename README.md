@@ -82,6 +82,7 @@ name[-1]    # e
 name[::1]   # Andrei Neagoie
 name[::-1]  # eiogaeN ierdnA
 name[0:10:2]# Ade e
+name[:-1] # Andrei Neagoi
 # : is called slicing and has the format [ start : end : step ]
 
 'Hi there ' + 'Timmy' # 'Hi there Timmy' --> This is called string concatenation
