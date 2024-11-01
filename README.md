@@ -439,7 +439,7 @@ while <condition that evaluates to boolean>:
     continue # continue to the next line in the block
 
 while <condition that evaluates to boolean>:
-		#action
+  # action
 else: # this else case will get executed only when the while loop condition evaluates to false. this will not get executed when a break condition happens in the while loop
 		print('I am from else case of while loop')
 ```
