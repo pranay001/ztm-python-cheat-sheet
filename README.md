@@ -22,16 +22,12 @@ print('hello', end='') # prints hello and does not move to next line. if the cod
 
 Setting up virtual environment
 ---
-**step 1:** Activate the virtual environment
-for mac `python3 -m venv .venv`
+**step 1:** Activate the virtual environment  
+for mac `python3 -m venv .venv`  
+for windows `python -m venv .venv`  
 
-for windows `python -m venv .venv`
-
-**step 2:** restore the packages by running the command `pip install -r requirements.txt`
-
-maintain a requirements.txt with a list of dependent package pip names. you can also provide the version information of pip packages in this requirements.txt file.
-
-
+**step 2:** restore the packages by running the command `pip install -r requirements.txt`  
+maintain a requirements.txt with a list of dependent package pip names. you can also provide the version information of pip packages in this requirements.txt file.  
 
 Numbers
 ----
