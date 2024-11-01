@@ -735,6 +735,11 @@ def get_counter():
 >>> counter(), counter(), counter()
 (1, 2, 3)
 ```
+rules of scope:
+1. Start with local
+2. then go for immediate parent local
+3. check for global
+4. then check for built in python functions
 
 Modules
 ----
