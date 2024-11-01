@@ -20,6 +20,11 @@ print('hello') # prints hello and moves to the next line
 print('hello', end='') # prints hello and does not move to next line. if the code has one more print, then it will print in the same line after hello.
 ```
 
+Setting up virtual environment
+---
+for mac "python3 -m venv .venv"
+for windows "python -m venv .venv"
+
 Numbers
 ----
 **python's 2 main types for Numbers is int and float (or integers and floating point numbers)**
