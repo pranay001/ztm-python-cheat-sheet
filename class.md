@@ -1,4 +1,4 @@
-Class
+# Class Introduction
 ---
 
 **Below code gives an overview of methods, properties, getter, setter, deleter, attributes and instance**
@@ -72,3 +72,38 @@ print(my_smu.resource_name) # reports error since the object instance attribute 
 my_smu.close()
 
 ```
+
+# Inheritance example
+---
+```python
+class Vehicle:
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
+
+    def describe(self):
+        return f"This is a {self.color} {self.brand}."
+
+class Car(Vehicle):
+    def __init__(self, brand, color, doors):
+        super().__init__(brand, color)
+        self.doors = doors
+
+    def describe(self):
+        return f"This is a {self.color} {self.brand} with {self.doors} doors."
+
+class Motorcycle(Vehicle):
+    def describe(self):
+        return f"This is a {self.color} {self.brand} motorcycle."
+
+# Create objects
+car = Car("Toyota", "red", 4)
+motorcycle = Motorcycle("Harley", "black")
+
+# Polymorphism
+vehicles = [car, motorcycle]
+for vehicle in vehicles:
+    print(vehicle.describe())
+```
+
+
